@@ -1,6 +1,10 @@
 
      <div class="main-panel">
+<<<<<<< HEAD
       <!-- Navbar -->
+=======
+
+>>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
@@ -25,7 +29,11 @@
                 </a>
                 
               </li>
+<<<<<<< HEAD
               <!-- your navbar here -->
+=======
+              
+>>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
             </ul>
           </div>
         </div>

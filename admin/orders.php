@@ -8,11 +8,19 @@ if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
 {
 $order_id=$_GET['order_id'];
 
+<<<<<<< HEAD
 /*this is delet query*/
 mysqli_query($con,"delete from orders where order_id='$order_id'")or die("delete query is incorrect...");
 } 
 
 ///pagination
+=======
+
+mysqli_query($con,"delete from orders where order_id='$order_id'")or die("delete query is incorrect...");
+} 
+
+
+>>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
 $page=$_GET['page'];
 
 if($page=="" || $page=="1")
@@ -27,6 +35,7 @@ $page1=($page*10)-10;
 include "sidenav.php";
 include "topheader.php";
 ?>
+<<<<<<< HEAD
       <!-- End Navbar -->
       <div class="content">
         <div class="container-fluid">
@@ -35,12 +44,26 @@ include "topheader.php";
             <div class="card ">
               <div class="card-header card-header-primary">
                 <h4 class="card-title">Urdherat  / Faqja <?php echo $page;?> </h4>
+=======
+
+      <div class="content">
+        <div class="container-fluid">
+
+          <div class="col-md-14">
+            <div class="card ">
+              <div class="card-header card-header-primary">
+                <h4 class="card-title">Orders  / Page <?php echo $page;?> </h4>
+>>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
                   <table class="table table-hover tablesorter " id="">
                     <thead class=" text-primary">
+<<<<<<< HEAD
                       <tr><th>Emri i klientit </th><th>Produkti</th><th>Contact | Email</th><th>Address</th><th>Detajet</th><th>Dergesa</th><th>Koha</th>
+=======
+                      <tr><th>Customer Name</th><th>Products</th><th>Contact | Email</th><th>Address</th><th>Details</th><th>Shipping</th><th>Time</th>
+>>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
                     </tr></thead>
                     <tbody>
                       <?php 

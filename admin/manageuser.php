@@ -6,20 +6,32 @@ if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
 {
 $user_id=$_GET['user_id'];
 
+<<<<<<< HEAD
 /*this is delet quer*/
+=======
+
+>>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
 mysqli_query($con,"delete from user_info where user_id='$user_id'")or die("query is incorrect...");
 }
 
 include "sidenav.php";
 include "topheader.php";
 ?>
+<<<<<<< HEAD
       <!-- End Navbar -->
+=======
+
+>>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
       <div class="content">
         <div class="container-fluid">
          <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
+<<<<<<< HEAD
                 <h4 class="card-title">Menaxho Userin</h4>
+=======
+                <h4 class="card-title">Manage User</h4>
+>>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
@@ -27,7 +39,11 @@ include "topheader.php";
                     <thead class=" text-primary">
                       <tr><th>User Name</th>
                 <th>User Password</th>
+<<<<<<< HEAD
 	<th><a href="adduser.php" class="btn btn-success">Shto te ri</a></th>
+=======
+	<th><a href="adduser.php" class="btn btn-success">Add New</a></th>
+>>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
                     </tr></thead>
                     <tbody>
                       <?php 

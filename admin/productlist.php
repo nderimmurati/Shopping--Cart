@@ -1,4 +1,4 @@
-<?php
+ <?php
 session_start();
 include("../db.php");
 error_reporting(0);
@@ -41,32 +41,23 @@ include "topheader.php";
       <div class="content">
         <div class="container-fluid">
         
+        
          <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title"> Lista e Produkteve</h4>
-                <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
-                      <label class="btn btn-sm btn-primary btn-simple active" id="0">
-                        <input type="radio" name="options" autocomplete="off" checked=""> Elektronike
-                      </label>
-                      <label class="btn btn-sm btn-primary btn-simple" id="1">
-                        <input type="radio" name="options" autocomplete="off"> Rroba
-                      </label>
-                      <label class="btn btn-sm btn-primary btn-simple" id="2">
-                        <input type="radio" name="options" autocomplete="off"> Pajisje shtepiake
-                      </label>
-                    </div>
+                <h4 class="card-title"> Lista e Produktit</h4>
+                
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
-                  <table class="table table-hover tablesorter " id="page1">
+                  <table class="table tablesorter " id="page1">
                     <thead class=" text-primary">
                       <tr><th>Foto</th><th>Emri</th><th>Çmimi</th><th>
 	<a class=" btn btn-primary" href="addproduct.php">Shto te re</a></th></tr></thead>
                     <tbody>
                       <?php 
 
-                        $result=mysqli_query($con,"select product_id,product_image, product_title,product_price from products  where  product_cat=1  Limit $page1,12")or die ("query 1 incorrect.....");
+                        $result=mysqli_query($con,"select product_id,product_image, product_title,product_price from products  where  product_cat=2 or product_cat=3 or product_cat=4 Limit $page1,12")or die ("query 1 incorrect.....");
 
                         while(list($product_id,$image,$product_name,$price)=mysqli_fetch_array($result))
                         {

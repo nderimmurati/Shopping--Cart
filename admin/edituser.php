@@ -30,7 +30,7 @@ include "topheader.php";
         <div class="col-md-5 mx-auto">
             <div class="card">
               <div class="card-header card-header-primary">
-                <h5 class="title">Edit User</h5>
+                <h5 class="title">Ndrysho Userin</h5>
               </div>
               <form action="edituser.php" name="form" method="post" enctype="multipart/form-data">
               <div class="card-body">
@@ -66,7 +66,7 @@ include "topheader.php";
                 
               </div>
               <div class="card-footer">
-                <button type="submit" id="btn_save" name="btn_save" class="btn btn-fill btn-primary">Update</button>
+                <button type="submit" id="btn_save" name="btn_save" class="btn btn-fill btn-primary">Përditësimi</button>
               </div>
               </form>    
             </div>

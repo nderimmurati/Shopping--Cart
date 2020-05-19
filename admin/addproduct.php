@@ -46,7 +46,7 @@ include "topheader.php";
          <div class="col-md-7">
             <div class="card">
               <div class="card-header card-header-primary">
-                <h5 class="title">Add Product</h5>
+                <h5 class="title">Shto Produkt</h5>
               </div>
               <div class="card-body">
                 
@@ -54,26 +54,26 @@ include "topheader.php";
                     
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label>Product Title</label>
+                        <label>Titulli i Produktit</label>
                         <input type="text" id="product_name" required name="product_name" class="form-control">
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="">
-                        <label for="">Add Image</label>
+                        <label for="">Shto Foto</label>
                         <input type="file" name="picture" required class="btn btn-fill btn-success" id="picture" >
                       </div>
                     </div>
                      <div class="col-md-12">
                       <div class="form-group">
-                        <label>Description</label>
+                        <label>Pershkrimi</label>
                         <textarea rows="4" cols="80" id="details" required name="details" class="form-control"></textarea>
                       </div>
                     </div>
                   
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label>Pricing</label>
+                        <label>Çmimi</label>
                         <input type="text" id="price" name="price" required class="form-control" >
                       </div>
                     </div>
@@ -88,7 +88,7 @@ include "topheader.php";
           <div class="col-md-5">
             <div class="card">
               <div class="card-header card-header-primary">
-                <h5 class="title">Categories</h5>
+                <h5 class="title">Kategorite</h5>
               </div>
               <div class="card-body">
                 
@@ -96,13 +96,13 @@ include "topheader.php";
                     
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label>Product Category</label>
+                        <label>Kategorite e Produktit</label>
                         <input type="number" id="product_type" name="product_type" required="[1-6]" class="form-control">
                       </div>
                     </div>
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label for="">Product Brand</label>
+                        <label for="">Marka e Produktit</label>
                         <input type="number" id="brand" name="brand" required class="form-control">
                       </div>
                     </div>
@@ -110,7 +110,7 @@ include "topheader.php";
                   
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label>Product Keywords</label>
+                        <label>Detajet e Produktit</label>
                         <input type="text" id="tags" name="tags" required class="form-control" >
                       </div>
                     </div>

@@ -38,7 +38,7 @@
   -->
       <div class="logo">
         <a href="" class="simple-text logo-normal">
-          PuneethReddy
+          Shopping Cart
 =======
       
       <div class="logo">

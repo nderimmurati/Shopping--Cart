@@ -3,12 +3,12 @@ session_start();
 include "db.php";
 if (isset($_SESSION["uid"])) {
 
-	$f_name = $_POST["firstname"];
+	$f_name = $_POST["emri"];
 	$email = $_POST['email'];
-	$address = $_POST['address'];
-    $city = $_POST['city'];
-    $state = $_POST['state'];
-    $zip= $_POST['zip'];
+	$address = $_POST['adresa'];
+    $city = $_POST['qyteti'];
+    $state = $_POST['shteti'];
+    $zip= $_POST['zipkodi'];
     $cardname= $_POST['cardname'];
     $cardnumber= $_POST['cardNumber'];
     $expdate= $_POST['expdate'];

@@ -335,7 +335,7 @@ include "header.php";
 													<li>
 														<div class="review-heading">
 															<h5 class="name">Nderim</h5>
-															<p class="date">27 DEC 2018, 8:0 PM</p>
+															<p class="date">18 MAY 2020, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
 																<i class="fa fa-star"></i>
@@ -351,7 +351,7 @@ include "header.php";
 													<li>
 														<div class="review-heading">
 															<h5 class="name">Nderim</h5>
-															<p class="date">27 DEC 2018, 8:0 PM</p>
+															<p class="date">18 MAY 2020, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
 																<i class="fa fa-star"></i>
@@ -367,7 +367,7 @@ include "header.php";
 													<li>
 														<div class="review-heading">
 															<h5 class="name">Nderim</h5>
-															<p class="date">27 DEC 2018, 8:0 PM</p>
+															<p class="date">18 MAY 2020, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
 																<i class="fa fa-star"></i>

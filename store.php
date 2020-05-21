@@ -96,8 +96,8 @@ include 'header.php';
 								<label>
 									Sort By:
 									<select class="input-select">
-										<option value="0">Popular</option>
-										<option value="1">Position</option>
+										<option value="0">Popullarizuar</option>
+										<option value="1">Pozicionuar</option>
 									</select>
 								</label>
 

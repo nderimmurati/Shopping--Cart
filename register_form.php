@@ -17,15 +17,15 @@
 								<form id="signup_form" onsubmit="return false" class="login100-form">
 									<div class="billing-details jumbotron">
                                     <div class="section-title">
-                                        <h2 class="login100-form-title p-b-49" >Register Here</h2>
+                                        <h2 class="login100-form-title p-b-49" >Regjistrohu ketu</h2>
                                     </div>
                                     <div class="form-group ">
                                     
-                                        <input class="input form-control input-borders" type="text" name="f_name" id="f_name" placeholder="First Name">
+                                        <input class="input form-control input-borders" type="text" name="f_name" id="f_name" placeholder="Emri">
                                     </div>
                                     <div class="form-group">
                                     
-                                        <input class="input form-control input-borders" type="text" name="l_name" id="l_name" placeholder="Last Name">
+                                        <input class="input form-control input-borders" type="text" name="l_name" id="l_name" placeholder="Mbiemri">
                                     </div>
                                     <div class="form-group">
                                         <input class="input form-control input-borders" type="email" name="email"  placeholder="Email">
@@ -37,13 +37,13 @@
                                         <input class="input form-control input-borders" type="password" name="repassword" id="repassword" placeholder="confirm password">
                                     </div>
                                     <div class="form-group">
-                                        <input class="input form-control input-borders" type="text" name="mobile" id="mobile" placeholder="mobile">
+                                        <input class="input form-control input-borders" type="text" name="mobile" id="mobile" placeholder="Numri celular">
                                     </div>
                                     <div class="form-group">
-                                        <input class="input form-control input-borders" type="text" name="address1" id="address1" placeholder="Address">
+                                        <input class="input form-control input-borders" type="text" name="address1" id="address1" placeholder="Adresa">
                                     </div>
                                     <div class="form-group">
-                                        <input class="input form-control input-borders" type="text" name="address2" id="address2" placeholder="City">
+                                        <input class="input form-control input-borders" type="text" name="address2" id="address2" placeholder="Qyteti">
                                     </div>
                                     
                                     
@@ -51,7 +51,7 @@
                                        <input class="primary-btn btn-block"  value="Sign Up" type="submit" name="signup_button">
                                     </div>
                                     <div class="text-pad">
-                                    <a href="" data-toggle="modal" data-target="#Modal_login">Already have an Account ? then login</a>
+                                    <a href="" data-toggle="modal" data-target="#Modal_login">Posedoni nje llogari ? Atehere Kyçuni</a>
                                        
                                     </div>
                                     

@@ -13,7 +13,7 @@
 							<p>Regjistrohu per <strong>Ofertat e Reja</strong></p>
 							<form id="offer_form" onsubmit="return false">
 								<input class="input" type="email" id="email" name="email" placeholder="Enter Your Email">
-								<button class="newsletter-btn" value="Sign Up" name="signup_button" type="submit"><i class="fa fa-envelope"></i> Subscribe</button>
+								<button class="newsletter-btn" value="Sign Up" name="signup_button" type="submit"><i class="fa fa-envelope"></i> Abonohu</button>
 							</form>
 							<div class="" id="offer_msg">
                               

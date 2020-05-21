@@ -11,7 +11,7 @@ session_start();
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Online Shopping</title>
+		<title>Shopping Cart</title>
 
 		<!-- Google font -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
@@ -123,7 +123,7 @@ session_start();
 				<div class="container">
 					
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
+						<li><a href="#"><i class="fa fa-inr"></i> BNQ</a></li>
 						<li><?php
                              include "db.php";
                             if(isset($_SESSION["uid"])){
@@ -175,7 +175,7 @@ session_start();
 							<div class="header-logo">
 								<a href="#" class="logo">
 								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        Online Shop
+                                        Shopping--Cart
                                     </font>
 									
 								</a>
@@ -188,12 +188,12 @@ session_start();
 							<div class="header-search">
 								<form>
 									<select class="input-select">
-										<option value="0">All Categories</option>
-										<option value="1">Men</option>
-										<option value="1">Women </option>
+										<option value="0">Te gjitha Kategorite</option>
+										<option value="1">Meshkuj</option>
+										<option value="1">Femra </option>
 									</select>
 									<input class="input" id="search" type="text" placeholder="Search here">
-									<button type="submit" id="search_btn" class="search-btn">Search</button>
+									<button type="submit" id="search_btn" class="search-btn">Kerko</button>
 								</form>
 							</div>
 						</div>
@@ -208,7 +208,7 @@ session_start();
 								<div class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
-										<span>Your Cart</span>
+										<span>Shporta Juaj</span>
 										<div class="badge qty">0</div>
 									</a>
 									<div class="cart-dropdown"  >
@@ -218,7 +218,7 @@ session_start();
 										</div>
 										
 										<div class="cart-btns">
-												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>  edit cart</a>
+												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>  ndrysho shporten</a>
 											
 										</div>
 									</div>

@@ -29,7 +29,7 @@ mysqli_close($con);
               <div class="card">
                 <div class="card-header card-header-primary">
                   <h4 class="card-title">Shto User</h4>
-                  <p class="card-category">Complete User profile</p>
+                  <p class="card-category">Profili i plotë i përdoruesit</p>
                 </div>
                 <div class="card-body">
                   <form action="" method="post" name="form" enctype="multipart/form-data">

@@ -61,8 +61,8 @@
               <i class="material-icons">Personi</i>
               <p>Shto User</p>
 =======
-              <i class="material-icons">person</i>
-              <p>Add User</p>
+              <i class="material-icons">Personi</i>
+              <p>Shto User</p>
 >>>>>>> fbcaff97179837ed391d58918dd58dc593da9a76
             </a>
           </li>
@@ -81,12 +81,12 @@
           <li class="nav-item ">
             <a class="nav-link" href="orders.php">
               <i class="material-icons">library_books</i>
-              <p>Orders</p>
+              <p>Porosia</p>
             </a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="addproduct.php">
-              <i class="material-icons">add</i>
+              <i class="material-icons">shto</i>
 <<<<<<< HEAD
               <p>Shto Produkt</p>
 =======
@@ -107,7 +107,7 @@
           <li class="nav-item ">
             <a class="nav-link" href="index.php">
               <i class="material-icons">logout</i>
-              <p>Logout</p>
+              <p>Shkyçu</p>
             </a>
           </li>
 <<<<<<< HEAD

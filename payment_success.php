@@ -39,7 +39,7 @@ if (isset($_GET["st"])) {
 					<html>
 						<head>
 							<meta charset="UTF-8">
-							<title>Shopping--Cart</title>
+							<title>Shopping Cart</title>
 							<link rel="stylesheet" href="css/bootstrap.min.css"/>
 							<script src="js/jquery2.js"></script>
 							<script src="js/bootstrap.min.js"></script>
@@ -52,7 +52,7 @@ if (isset($_GET["st"])) {
 						<div class="navbar navbar-inverse navbar-fixed-top">
 							<div class="container-fluid">	
 								<div class="navbar-header">
-									<a href="#" class="navbar-brand">Shopping--Cart</a>
+									<a href="#" class="navbar-brand">Shopping Cart</a>
 								</div>
 								<ul class="nav navbar-nav">
 									<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
@@ -73,9 +73,9 @@ if (isset($_GET["st"])) {
 										<div class="panel-body">
 											<h1>Faleminderit</h1>
 											<hr/>
-											<p>Hello <?php echo "<b>".$_SESSION["name"]."</b>"; ?>,Your payment process is 
-											successfully completed and your Transaction id is <b><?php echo $trx_id; ?></b><br/>
-											you can continue your Shopping <br/></p>
+											<p>Hello <?php echo "<b>".$_SESSION["name"]."</b>"; ?>,Procesi juaj i pageses eshte 
+											perfunduar me sukses dhe ID-ja juaj e Transaksionit eshte <b><?php echo $trx_id; ?></b><br/>
+											ju mund të vazhdoni blerjet tuaja <br/></p>
 											<a href="index.php" class="btn btn-success btn-lg">Vazhdo Shopping-un</a>
 										</div>
 										<div class="panel-footer"></div>

@@ -13,7 +13,7 @@
             &copy;
             <script>
               document.write(new Date().getFullYear())
-            </script>, made with <i class="material-icons">favorite</i> by
+            </script>, Bere me  <i class="material-icons">preferuar</i> nga
             <a href="" target="_blank">Shopping Cart</a> Per nje faqe te mire.
           </div>
           <!-- your footer here -->

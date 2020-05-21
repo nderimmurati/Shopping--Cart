@@ -23,7 +23,7 @@ if (isset($_POST["login_user_with_product"])) {
 								<form onsubmit="return false" id="login" class="login100-form ">
 									<div class="billing-details jumbotron">
                                     <div class="section-title">
-                                        <h2 class="login100-form-title p-b-49" >Login Here</h2>
+                                        <h2 class="login100-form-title p-b-49" >Kyçu ketu</h2>
                                     </div>
                                    
                                     
@@ -39,7 +39,7 @@ if (isset($_POST["login_user_with_product"])) {
                                     
                                     <div class="text-pad" >
                                        <a href="#">
-                                           forget password ?
+                                       keni harruar fjalëkalimin ?
                                        </a>
                                         
                                     </div>

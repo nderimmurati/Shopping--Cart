@@ -54,7 +54,7 @@ if(isset($_POST["email"]) && isset($_POST["password"])){
 					
 					</script>";
 				} else {
-					header('Location: index.php'); /
+					header('Location: index.php'); 
 				} 
 				
 			

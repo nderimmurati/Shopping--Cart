@@ -126,13 +126,13 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`cat_id`, `cat_title`) VALUES
-(1, 'Electronics'),
-(2, 'Ladies Wears'),
-(3, 'Mens Wear'),
-(4, 'Kids Wear'),
-(5, 'Furnitures'),
-(6, 'Home Appliances'),
-(7, 'Electronics Gadgets');
+(1, 'Elektronike'),
+(2, 'Veshje per Femra'),
+(3, 'Veshje per Meshkuj'),
+(4, 'Veshje per Femije'),
+(5, 'Mobilje'),
+(6, 'Paisje Shtepiake'),
+(7, 'Paisje Elektronike');
 
 -- --------------------------------------------------------
 
@@ -402,7 +402,7 @@ CREATE TABLE `user_info_backup` (
 --
 
 INSERT INTO `user_info_backup` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
-(12, 'besari1', 'Reddy', 'besartasholli@gmail.com', '123456789', '9448121558', '123456789', 'sdcjns,djc'),
+(12, 'besari1', 'Reddy', 'besartashollii@gmail.com', '123456789', '9448121558', '123456789', 'sdcjns,djc'),
 (14, 'nderimi1u', 'reddy', 'besi123@gmail.com', '123456788', '6526436723', 's,dc wfjvnvn', 'b efhfhvvbr'),
 (15, 'hemu', 'ajhgdg', 'kosova12@gmail.com', '346778', '536487276', ',mdnbca', 'asdmhmhvbv'),
 (16, 'venky', 'vs', 'kosoovo@gmail.com', '1234534', '9877654334', 'snhdgvajfehyfygv', 'asdjbhfkeur'),

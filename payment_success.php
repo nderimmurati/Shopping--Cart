@@ -73,7 +73,7 @@ if (isset($_GET["st"])) {
 										<div class="panel-body">
 											<h1>Faleminderit</h1>
 											<hr/>
-											<p>Hello <?php echo "<b>".$_SESSION["name"]."</b>"; ?>,Procesi juaj i pageses eshte 
+											<p>Pershendetje <?php echo "<b>".$_SESSION["name"]."</b>"; ?>,Procesi juaj i pageses eshte 
 											perfunduar me sukses dhe ID-ja juaj e Transaksionit eshte <b><?php echo $trx_id; ?></b><br/>
 											ju mund të vazhdoni blerjet tuaja <br/></p>
 											<a href="index.php" class="btn btn-success btn-lg">Vazhdo Shopping-un</a>

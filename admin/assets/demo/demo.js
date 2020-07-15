@@ -165,7 +165,7 @@ demo = {
 
     var marker = new google.maps.Marker({
       position: myLatlng,
-      title: "Hello World!"
+      title: "Admin Dashboard!"
     });
 
     // To add the marker to the map, call setMap();

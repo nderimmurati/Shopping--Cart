@@ -4,7 +4,7 @@
             <ul>
               <li>
                 <a href="">
-                  PuneethReddy
+                  Besar, Nderim, Qendrim
                 </a>
               </li>
             </ul>
@@ -14,7 +14,7 @@
             <script>
               document.write(new Date().getFullYear())
             </script>, made with <i class="material-icons">favorite</i> by
-            <a href="" target="_blank">Puneethreddy</a> for a better web.
+            <a href="" target="_blank">Besar, Nderim, Qendrim</a> Per nje web me te mire.
           </div>
           <!-- your footer here -->
         </div>
